@@ -1,4 +1,4 @@
-module uniswap-sdk-core
+module github.com/leozvoy/uniswap-sdk-core
 
 go 1.20
 
