@@ -13,6 +13,7 @@ var WETH9 = map[uint]*Token{
 	10: NewToken(10, common.HexToAddress("0x4200000000000000000000000000000000000006"), 18, "WETH", "Wrapped Ether"),
 	69: NewToken(69, common.HexToAddress("0x4200000000000000000000000000000000000006"), 18, "WETH", "Wrapped Ether"),
 
-	42161:  NewToken(42161, common.HexToAddress("0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"), 18, "WETH", "Wrapped Ether"),
-	421611: NewToken(421611, common.HexToAddress("0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681"), 18, "WETH", "Wrapped Ether"),
+	42161:    NewToken(42161, common.HexToAddress("0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"), 18, "WETH", "Wrapped Ether"),
+	421611:   NewToken(421611, common.HexToAddress("0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681"), 18, "WETH", "Wrapped Ether"),
+	11155111: NewToken(11155111, common.HexToAddress("0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"), 18, "WETH", "Wrapped Ether"),
 }
